@@ -1,0 +1,21 @@
+{
+  "debug": true,
+  "server": {
+    "address": ":9090"
+  },
+  "context":{
+    "timeout":2
+  },
+  "database": {
+      "host": "localhost",
+      "port": "3306",
+      "user": "user",
+      "pass": "password",
+      "name": "dealls"
+  },
+  "jwt_token": {
+    "secret_key": "some-secret-key",
+    "refresh_secret_key": "some-refresh-secret-key"
+  }
+
+}
